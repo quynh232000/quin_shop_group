@@ -1,0 +1,113 @@
+.m-search {
+    padding: 0 12px;
+}
+.ip-search {
+    border: 1px solid rgb(242, 242, 242);
+    outline: none;
+    width: 100%;
+    border-radius: 999px;
+    padding: 8px 16px;
+    padding-left: 32px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.search-icon i {
+    font-size: 16px !important;
+}
+.m-w-search {
+    width: 100%;
+    padding: 12px 0;
+    position: relative;
+    border-bottom: 1px solid rgb(247, 247, 247);
+}
+.m_user_img img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.message_container {
+    display: flex !important;
+    border: 1px solid rgb(247, 247, 247);
+}
+.message_left {
+    width: 300px;
+    border-right: 1px solid var(--border);
+    /* padding-right: 16px; */
+}
+.m_user_item {
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+}
+.m_user-body {
+    flex: 1;
+}
+.m_user-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.m_user-top span {
+    font-size: 12px;
+}
+.m_user-top div {
+    color: black;
+}
+.m_user-text {
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.m_user_item.active {
+    background-color: rgba(152, 206, 238, 0.2);
+}
+.shop-profile {
+    padding: 30px 10px;
+}
+.m_list_user {
+    /* overflow-y: scroll; */
+}
+/* new */
+.flex.gap-4px.w-mess.flex-end {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.s_list_img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 5px;
+}
+.s_m_left{
+    display: flex;
+    flex-direction: column;
+}
+.s_list_img img {
+    width: 96px;
+    height: 72px;
+    object-fit: cover;
+}
+.message-right .mess-content{
+    width: fit-content;
+}
+.message-right .flex.gap-4px.w-mess.flex-end{
+    align-items: flex-end;
+}
+.message_container .message_right .mess-body{
+    min-height: 45vh;
+    height: auto !important;
+    max-height: 58vh !important;
+}
+.shop-profile{
+    padding-top: 0;
+}
